@@ -5,9 +5,9 @@ date:   2024-03-14 13:22:00 -0500
 categories: pota
 ---
 
-Yesterday, I completed my second activation of [Heyburn Wildlife Management Area (K-8124)](https://pota.app/#/park/K-8124). The warm, early spring weather prompted me to take some PTO and get on the air. The weather was near 80°F with gusty winds from the east and warm sunshine. I put in a last minute scheduled activation and hit the road.
+Yesterday, I completed my second activation of [Heyburn Wildlife Management Area (US-8124)](https://pota.app/#/park/US-8124). The warm, early spring weather prompted me to take some PTO and get on the air. The weather was near 80°F with gusty winds from the east and warm sunshine. I put in a last minute scheduled activation and hit the road.
 
-[![Heyburn Wildlife Management Area (K-8124) Map](/assets/9WK4F.png){: width="75%"}](/assets/9WK4F.png){:  }
+[![Heyburn Wildlife Management Area (US-8124) Map](/assets/9WK4F.png){: width="75%"}](/assets/9WK4F.png){:  }
 
 Heyburn WMA is an area surrounding Heyburn Lake west of Tulsa, Oklahoma. I decided to setup at the northeast most parking lot just off of OK-33. I arrived to an empty parking lot, and there were no other visitors during my entire activation.
 
