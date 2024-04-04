@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   the Air (SOTA) activities, and the techniques of QRP for
   efficient low-power communication.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ac5m.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 show_excerpts: true
 twitter_username: Seth_AC5M
 github_username:  AC5M
