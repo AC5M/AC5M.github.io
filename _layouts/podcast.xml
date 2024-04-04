@@ -1,0 +1,47 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+    <channel>
+        <title>{{ page.title }}</title>
+        <description>{{ page.description }}</description>
+        <link>{{ page.content_source }}</link>
+        <docs>{{ page.content_source }}</docs>
+        <language>en-US</language>
+        <generator>Jekyll</generator>
+        <pubDate>Fri, 09 Oct 2020 04:30:38 GMT</pubDate>
+        <lastBuildDate>Fri, 09 Oct 2020 04:30:38 GMT</lastBuildDate>
+        <managingEditor>ac5m@protonmail.com (Seth Charles)</managingEditor>
+        <webMaster>ac5m@protonmail.com (Seth Charles)</webMaster>
+        <image>
+            <url>{{ page.image }}</url>
+            <title>{{ page.title }}</title>
+            <link>{{ page.content_source }}</link>
+        </image>
+
+        <podcast:guid>{{ page.guid }}</podcast:guid>
+
+        <podcast:locked owner="ac5m@protonmail.com">yes</podcast:locked>
+        <podcast:block>yes</podcast:block>
+        <podcast:block id="google">no</podcast:block>
+        <podcast:block id="amazon">no</podcast:block>
+
+        <podcast:medium>podcast</podcast:medium>
+
+        <itunes:author>Seth Charles</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:type>episodic</itunes:type>
+        <itunes:category text="Education"/>
+        <itunes:category text="Language Learning"/>
+
+        <itunes:owner>
+        <itunes:name>Seth Charles</itunes:name>
+        <itunes:email>ac5m@protonmail.com</itunes:email>
+        </itunes:owner>
+
+        <itunes:image>{{ page.image }}</itunes:image>
+
+        {{ content }}
+
+    </channel>
+</rss>
