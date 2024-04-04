@@ -14,7 +14,7 @@
         <managingEditor>ac5m@protonmail.com (Seth Charles)</managingEditor>
         <webMaster>ac5m@protonmail.com (Seth Charles)</webMaster>
         <image>
-            <url>{{ page.image }}</url>
+            <url>{{ site.url }}{{ page.image }}</url>
             <title>{{ page.title }}</title>
             <link>{{ page.content_source }}</link>
         </image>
@@ -39,7 +39,7 @@
         <itunes:email>ac5m@protonmail.com</itunes:email>
         </itunes:owner>
 
-        <itunes:image>{{ page.image }}</itunes:image>
+        <itunes:image>{{ site.url }}{{ page.image }}</itunes:image>
 
         {{ content }}
 

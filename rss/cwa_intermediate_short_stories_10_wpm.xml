@@ -14,7 +14,7 @@ content_source: https://cwops.org/intermediate-practice-files/
     <guid isPermaLink="true">{{ item.url }}</guid>
     <pubDate>Fri, 09 Oct 2020 04:30:38 GMT</pubDate>
     <author>CWops CW Academy</author>
-    <itunes:image>{{ page.image }}</itunes:image>
+    <itunes:image>{{ site.url}}{{ page.image }}</itunes:image>
     <podcast:images srcset="{{ page.image }} 250w" />
     <itunes:explicit>false</itunes:explicit>
     <podcast:episode>{{ item.episode }}</podcast:episode>
