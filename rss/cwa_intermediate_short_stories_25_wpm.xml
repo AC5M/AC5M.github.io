@@ -1,0 +1,24 @@
+---
+title: CWA Intermediate Short Stories (25 WPM)
+description: Intermediate-level short stories at 25 WPM from CWops CW Academy
+layout: podcast
+guid: 59420D57-221C-4139-BB85-3B123AB6E87B
+image: /assets/cropped-CWOps_logo_250x250px.png
+content_source: https://cwops.org/intermediate-practice-files/
+---
+{% for item in site.data.cwa_intermediate_short_stories_25_wpm %}
+<item>
+    <title>{{ item.title }}</title>
+    <description>{{ item.title }}</description>
+    <link>{{ page.content_source }}</link>
+    <guid isPermaLink="true">{{ item.url }}</guid>
+    <pubDate>Fri, 09 Oct 2020 04:30:38 GMT</pubDate>
+    <author>CWops CW Academy</author>
+    <itunes:image>{{ site.url}}{{ page.image }}</itunes:image>
+    <podcast:images srcset="{{ page.image }} 250w" />
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:episode>{{ item.episode }}</podcast:episode>
+
+    <enclosure url="{{ item.url }}" length="{{ item.length }}" type="audio/mpeg" />
+</item>
+{% endfor %}
