@@ -1,0 +1,24 @@
+---
+title: ARRL Code Archive (15 WPM)
+description: ARRL Code Archive at 15 WPM
+layout: podcast
+guid: 26DA7A72-DFF1-4496-A1C6-962BEA10EF70
+image: /assets/ARRL-New-Logo-2020-scaled.webp
+content_source: http://www.arrl.org/15-wpm-code-archive
+---
+{% for item in site.data.arrl_15_wpm_code_archive %}
+<item>
+    <title>{{ item.title }}</title>
+    <description>{{ item.title }}</description>
+    <link>{{ page.content_source }}</link>
+    <guid isPermaLink="true">{{ item.url }}</guid>
+    <pubDate>{{ item.date }}</pubDate>
+    <author>ARRL</author>
+    <itunes:image>{{ site.url}}{{ page.image }}</itunes:image>
+    <podcast:images srcset="{{ page.image }} 250w" />
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:episode>{{ item.episode }}</podcast:episode>
+    <podcast:season>{{ item.season }}</podcast:season>
+    <enclosure url="{{ item.url }}" length="{{ item.length }}" type="audio/mpeg" />
+</item>
+{% endfor %}
